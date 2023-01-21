@@ -1,5 +1,5 @@
 {
-  "name": "alquemie/wp-upstream",
+  "name": "alquemie/site-wdidn",
   "description": "Install Wordpress with Composer on Pantheon",
   "type": "website",
   "keywords": [],
@@ -18,7 +18,11 @@
     }
   ],
   "require": {
-    "alquemie/upstream-config": "*"
+    "alquemie/upstream-config": "*",
+    "alquemie/advanced-custom-fields-pro": "^6.0",
+    "alquemie/gravityforms": "^2.6",
+    "wpackagist-plugin/autodescription":"^4.2",
+    "wpackagist-theme/astra":"^4.0"
   },
   "config": {
     "vendor-dir": "vendor",
