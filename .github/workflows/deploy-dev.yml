@@ -1,4 +1,4 @@
-name: Deploy Dev Alquemie Site
+name: Deploy Dev Site
 on: 
   push:
     branches: 
@@ -37,4 +37,4 @@ jobs:
 
       - name: Deploy Website
         run: |
-          rsync -avz --delete web vendor *.yml *.php ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/net.alquemie
+          rsync -avz --delete web vendor *.yml *.php ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/info.wdidn.dev
