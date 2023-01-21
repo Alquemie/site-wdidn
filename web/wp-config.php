@@ -62,7 +62,8 @@ if (isset($_ENV['PANTHEON_ENVIRONMENT']) ) {
  * DotEnv File settings.
  */
 } elseif ( class_exists('Dotenv\Dotenv') && file_exists($rootPath . '/.env')  ) {
-	$dotenv = Dotenv\Dotenv::create( __DIR__ . '/..' );
+	// $dotenv = Dotenv\Dotenv::create( __DIR__ . '/..' );
+	$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/..');
 	$dotenv->load();
 
 	$redirect = (!isset($_SERVER['HTTPS']) || strtoupper($_SERVER['HTTPS']) != 'ON' ) ? true : false;
