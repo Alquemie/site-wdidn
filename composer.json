@@ -23,6 +23,7 @@
     "alquemie/gravityforms": "^2.6",
     "wpackagist-plugin/autodescription":"^4.2",
     "wpackagist-plugin/astra-sites":"3.1.23",
+    "wpackagist-plugin/ultimate-addons-for-gutenberg":"2.3.1",
     "wpackagist-theme/astra":"^4.0"
   },
   "config": {
