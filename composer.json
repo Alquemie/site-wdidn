@@ -22,6 +22,7 @@
     "alquemie/advanced-custom-fields-pro": "^6.0",
     "alquemie/gravityforms": "^2.6",
     "wpackagist-plugin/autodescription":"^4.2",
+    "wpackagist-plugin/astra-sites":"3.1.23",
     "wpackagist-theme/astra":"^4.0"
   },
   "config": {
